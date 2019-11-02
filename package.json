@@ -8,6 +8,8 @@
     "react-scripts": "3.2.0"
   },
   "scripts": {
+    "lint": "node node_modules/eslint/bin/eslint.js src/*.js",
+    "prepush": "npm run lint",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -36,7 +38,8 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
-    "eslint-plugin-react-hooks": "^1.7.0"
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "husky": "^3.0.9"
   },
   "repository": {
     "type": "git",
