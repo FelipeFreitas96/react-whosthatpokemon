@@ -1,9 +1,26 @@
 .App {
   text-align: center;
+  flex-direction: column;
 }
 
 .App-logo {
   height: 40vmin;
+}
+
+.PokemonShow {
+  filter: brightness(1) !important;
+  transition: filter 0.5s ease-in;
+}
+
+.Pokemon-Loaded {
+  visibility: initial !important;
+  height: 96px !important;
+}
+
+#Pokemon {
+  filter: brightness(0);
+  visibility: hidden;
+  height: 0;
 }
 
 .App-header {
