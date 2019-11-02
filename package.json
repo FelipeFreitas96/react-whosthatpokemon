@@ -1,5 +1,5 @@
 {
-  "name": "react-whoispokemon",
+  "name": "react-whosthatpokemon",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -44,18 +44,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FelipeFreitas96/react-whoispokemon.git"
+    "url": "git+https://github.com/FelipeFreitas96/react-whosthatpokemon.git"
   },
   "keywords": [
     "pokemon",
     "who-is",
-    "who-is-pokemon",
+    "who-is-that-pokemon",
+    "whos-that-pokemon",
     "react"
   ],
   "author": "Felipe Freitas <felipe.samidare@hotmail.com> (http://gitshowcase.com/FelipeFreitas96)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FelipeFreitas96/react-whoispokemon/issues"
+    "url": "https://github.com/FelipeFreitas96/react-whosthatpokemon/issues"
   },
-  "homepage": "https://github.com/FelipeFreitas96/react-whoispokemon#readme"
+  "homepage": "https://github.com/FelipeFreitas96/react-whosthatpokemon#readme"
 }
